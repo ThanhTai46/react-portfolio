@@ -45,15 +45,15 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get in Touch</h5>
-      <h2>Contact me</h2>
+      <h5 className="dark:text-white">Get in Touch</h5>
+      <h2 className="dark:text-white">Contact me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <GrMail className="contact__option-icon" />
-            <h4>Email: </h4>
-            <h4>luxurydemon123@gmail.com</h4>
+            <GrMail className="contact__option-icon text-white" />
+            <h4 className="text-white">Email: </h4>
+            <h4 className="text-white">luxurydemon123@gmail.com</h4>
             <a
               href="mailto:luxurydemon123@gmail.com"
               target="_blank"
@@ -63,8 +63,8 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <BsMessenger className="contact__option-icon" />
-            <h4>Messenger</h4>
+            <BsMessenger className="contact__option-icon text-white" />
+            <h4 className="text-white">Messenger</h4>
             <a
               href="https://m.me/luxurydemon99/"
               target="_blank"
@@ -76,6 +76,7 @@ const Contact = () => {
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
+            className=""
             type="text"
             name="name"
             placeholder="Enter your name"
@@ -89,7 +90,6 @@ const Contact = () => {
           />
           <textarea
             name="message"
-            rows="7"
             placeholder="Your message"
             required
           ></textarea>

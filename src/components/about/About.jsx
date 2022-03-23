@@ -6,8 +6,8 @@ import { IoIosSchool } from "react-icons/io";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5 className="dark:text-white">Get to know</h5>
+      <h2 className="dark:text-white">About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            <article className="dark:text-white about__card">
               <FaAward className="about__icon" />
               <h5>Certificate</h5>
               <small>
@@ -36,7 +36,7 @@ const About = () => {
               </small>
             </article>
 
-            <article className="about__card">
+            <article className="dark:text-white about__card">
               <IoIosSchool className="about__icon" />
               <h5>Education</h5>
               <small>- Graduated From High School</small>

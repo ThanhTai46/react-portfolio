@@ -54,14 +54,14 @@ const dataDemo = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>My Project</h2>
+      <h2 className="dark:text-white">My Project</h2>
       <div className="container portfolio__container">
         {dataDemo.map((item) => (
           <article className="portfolio__item" key={item.id}>
             <div className="portfolio__item-image">
               <img src={item.image} alt={item.image} />
             </div>
-            <h3>{item.title}</h3>
+            <h3 className="text-white">{item.title}</h3>
             <div className="portfolio__item-cta">
               <a
                 href={item.github}

@@ -30,6 +30,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+  color: var(--color-white);
 }
 .about__icon {
   width: 100%;
@@ -41,11 +42,11 @@
   border-radius: 6px;
   padding: 2rem;
 }
-.about__card:hover {
+/* .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
-}
+} */
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;

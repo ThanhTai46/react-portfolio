@@ -18,14 +18,19 @@ header {
 }
 
 /* ============== Social ================== */
+/* .darkmode {
+  color: var(--color-primary);
+  transition: var(--transition);
+} */
 .header__socials {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
-  position: absolute;
-  left: 0;
+  position: fixed;
+  left: 50px;
   bottom: 3rem;
+  z-index: 9999;
 }
 .header__socials::before {
   content: "";

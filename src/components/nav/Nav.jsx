@@ -3,7 +3,7 @@ import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine, RiMessengerLine } from "react-icons/ri";
-
+// import { BsSunFill } from "react-icons/bs";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -30,9 +30,9 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
-        href="#service"
-        onClick={() => setActiveNav("#service")}
-        className={activeNav === "#service" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
         <RiServiceLine />
       </a>
