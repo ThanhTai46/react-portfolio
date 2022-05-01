@@ -4,7 +4,7 @@
   gap: 15%;
 }
 .about__me {
-  width: 100%;
+  width: 60%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
@@ -19,7 +19,7 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(5deg);
+  transform: rotate(3deg);
 
   transition: var(--transition);
 }
@@ -58,7 +58,7 @@
 }
 .about__card small {
   text-align: left;
-  font-size: 0.7rem;
+  font-size: 14px;
 }
 .about__content p {
   margin: 2rem 0 2.6rem;
@@ -74,7 +74,8 @@
     gap: 0;
   }
   .about__me {
-    width: 50%;
+    width: 30%;
+
     margin: 2rem auto 4rem;
   }
   .about__content p {
@@ -86,8 +87,8 @@
 
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
+    width: 40%;
+    margin: 2.6rem auto 3rem;
   }
   .about__cards {
     grid-template-columns: 1fr;

@@ -9,13 +9,21 @@ const HeaderSocials = () => {
   return (
     // eslint-disable-next-line react/jsx-no-comment-textnodes
     <div className="header__socials">
-      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.linkedin.com/in/l%C3%AA-th%C3%A0nh-t%C3%A0i/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsLinkedin></BsLinkedin>
       </a>
-      <a href="https://github.com" target="_blank" rel="noreferrer">
+      <a href="https://github.com/ThanhTai46" target="_blank" rel="noreferrer">
         <BsGithub></BsGithub>
       </a>
-      <a href="https://facebook.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://facebook.com/luxurydemon99"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaFacebookSquare></FaFacebookSquare>
       </a>
       {isDarkMode ? (

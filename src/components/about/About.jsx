@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.JPG";
 import { FaAward } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io";
 const About = () => {
@@ -12,10 +12,10 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="" />
+            <img src={ME} alt="" className="object-cover w-full h-full" />
           </div>
         </div>
-        <div className="about__content">
+        <div className="mt-10 about__content">
           <div className="about__cards">
             <article className="dark:text-white about__card">
               <FaAward className="about__icon" />
@@ -50,9 +50,9 @@ const About = () => {
             An inquisitive, highly disciplined and professional person is a
             student graduated from <strong>FPT Greenwich University</strong>{" "}
             specialized Information Technology. I would like to apply for an
-            Internship Position Laravel. Desire to work in the company to learn
-            and gain experience to bring value to the company and society. I
-            hope to meet your company's requirements.
+            Position ReactJS. Desire to work in the company to learn and gain
+            experience to bring value to the company and society. I hope to meet
+            your company's requirements.
           </p>
 
           <a href="#contact" className="btn btn-primary">

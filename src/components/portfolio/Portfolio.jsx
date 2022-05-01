@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio5.png";
+import IMG4 from "../../assets/portfolio3.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
@@ -11,30 +11,30 @@ const dataDemo = [
   {
     id: 1,
     image: IMG1,
-    title: "Demo 1",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Movie App",
+    github: "https://github.com/ThanhTai46/movie-app",
+    demo: "https://xemphims.netlify.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Demo 2",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Food Delivery App",
+    github: "https://github.com/ThanhTai46/danangfood",
+    demo: "https://danangfood-dbec6.web.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Demo 3",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Music Player App",
+    github: "https://github.com/luxurydemon123/nhaccuatui",
+    demo: " https://nhaccuatui.vercel.app/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Demo 4",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Redux Photo App",
+    github: "https://github.com/ThanhTai46/redux-photo-app",
+    demo: "http://photo-apps.surge.sh/photos",
   },
   {
     id: 5,
